@@ -37,9 +37,10 @@ export default function Home() {
   const [statsRef, statsInView] = useInView({ threshold: 0.2, triggerOnce: true });
 
   const heroImages = [
-    '/foto-category/hero/hero1_image.webp',
-    '/foto-category/hero/hero2_image.webp',
-    '/foto-category/hero/hero3_image.webp',
+    '/foto-category/engagement/engagement1.png',
+    '/foto-category/graduation/graduation1.png',
+    '/foto-category/wedding/wedding1.png',
+    '/foto-category/wedding/wedding6.png',
   ];
 
   return (

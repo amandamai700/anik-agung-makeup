@@ -173,7 +173,7 @@ export default function Home() {
               <motion.div variants={fadeInUp} className="relative">
                 <div className="relative rounded-3xl overflow-hidden aspect-[4/5] max-w-md mx-auto lg:mx-0 soft-shadow">
                   <img
-                    src="foto-category/profile/profile.jpeg"
+                    src="/foto-category/profile/profile.jpeg"
                     alt="Anik Agung Makeup - Professional Makeup Artist"
                     className="w-full h-full object-cover"
                     loading="lazy"
@@ -337,14 +337,14 @@ export default function Home() {
 
           <div className="masonry-grid">
             {[
-              'foto-category/wedding/wedding1.png',
-              'foto-category/graduation/graduation1.png',
-              'foto-category/wedding/wedding3.png',
-              'foto-category/wedding/wedding4.png',
-              'foto-category/wedding/wedding5.png',
-              'foto-category/graduation/graduation1.png',
-              'foto-category/graduation/graduation2.png',
-              'foto-category/graduation/graduation1.png',
+              '/foto-category/wedding/wedding1.png',
+              '/foto-category/graduation/graduation1.png',
+              '/foto-category/wedding/wedding3.png',
+              '/foto-category/wedding/wedding4.png',
+              '/foto-category/wedding/wedding5.png',
+              '/foto-category/graduation/graduation1.png',
+              '/foto-category/graduation/graduation2.png',
+              '/foto-category/graduation/graduation1.png',
             ].map((img, i) => (
               <motion.div
                 key={i}
@@ -508,12 +508,12 @@ export default function Home() {
 
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2 sm:gap-3">
             {[
-              'foto-category/engagement/engagement2.png',
-              'foto-category/graduation/graduation1.png',
-              'foto-category/wedding/wedding6.png',
-              'foto-category/homeservice/homeservice1.png',
-              'foto-category/hairdo/hairdo1.png',
-              'foto-category/wedding/wedding1.png'
+              '/foto-category/engagement/engagement2.png',
+              '/foto-category/graduation/graduation1.png',
+              '/foto-category/wedding/wedding6.png',
+              '/foto-category/homeservice/homeservice1.png',
+              '/foto-category/hairdo/hairdo1.png',
+              '/foto-category/wedding/wedding1.png'
             ].map((img, i) => (
               <motion.a
                 key={i}

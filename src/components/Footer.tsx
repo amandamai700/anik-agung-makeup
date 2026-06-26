@@ -150,13 +150,13 @@ export default function Footer() {
               <h4 className="font-playfair font-semibold text-white mb-1">Dapatkan Tips Kecantikan Eksklusif</h4>
               <p className="text-gray-400 text-sm font-poppins">Subscribe dan dapatkan tips makeup & skincare terbaru langsung di inbox Anda.</p>
             </div>
-            <div className="flex gap-2 w-full md:w-auto">
+            <div className="md:flex gap-2 w-full md:w-auto items-center">
               <input
                 type="email"
                 placeholder="Email Anda..."
-                className="flex-1 md:w-56 px-4 py-2.5 rounded-full bg-white/10 border border-white/20 text-white placeholder-gray-500 text-sm focus:outline-none focus:border-[#F7C6D9] font-poppins"
+                className="flex-1 w-70 px-4 py-2.5 m-1 rounded-full bg-white/10 border border-white/20 text-white placeholder-gray-500 text-sm focus:outline-none focus:border-[#F7C6D9] font-poppins"
               />
-              <button className="btn-primary text-sm py-2.5 px-5 whitespace-nowrap">
+              <button className="btn-primary text-sm py-2.5 px-5 m-1 whitespace-nowrap mt-1 md:mt-0">
                 Subscribe
               </button>
             </div>

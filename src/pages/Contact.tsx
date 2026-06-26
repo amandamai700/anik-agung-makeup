@@ -92,7 +92,7 @@ export default function Contact() {
                 </div>
 
                 <h3 className="font-playfair text-lg font-bold text-[#2B2B2B] mb-4">Ikuti Kami</h3>
-                <div className="grid grid-cols-2 gap-3 mb-8">
+                <div className="grid lg:grid-cols-2 gap-3 mb-8">
                   {socialLinks.map(({ icon: Icon, label, value, href }) => (
                     <motion.a key={label} variants={fadeInUp} href={href} target="_blank" rel="noopener noreferrer"
                       className="flex items-center gap-3 p-3 bg-[#FFF6F9] rounded-2xl border border-[#F9D6E5] hover:border-[#E8A9C1] transition-all group">

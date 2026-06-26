@@ -65,7 +65,7 @@ export default function Booking() {
     const selectedService = services.find(s => s.id === form.service);
     const dateStr = form.date ? form.date.toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) : '';
     const waMessage = encodeURIComponent(
-      `🌸 *BOOKING AURELIA BEAUTY* 🌸\n\n` +
+      `🌸 *BOOKING ANIK AGUNG MAGEUP* 🌸\n\n` +
       `👤 Nama: ${form.name}\n` +
       `📱 No. HP: ${form.phone}\n` +
       `📧 Email: ${form.email}\n` +

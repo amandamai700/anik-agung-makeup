@@ -37,9 +37,9 @@ export default function Home() {
   const [statsRef, statsInView] = useInView({ threshold: 0.2, triggerOnce: true });
 
   const heroImages = [
-    'foto-category/hero/hero1_image.jpeg',
-    'foto-category/hero/hero2_image.jpeg',
-    'foto-category/hero/hero3_image.jpeg',
+    '/foto-category/hero/hero1_image.jpeg',
+    '/foto-category/hero/hero2_image.jpeg',
+    '/foto-category/hero/hero3_image.jpeg',
   ];
 
   return (

@@ -186,7 +186,7 @@ export default function Home() {
                   className="absolute -bottom-4 -right-4 sm:right-0 bg-white rounded-2xl p-4 soft-shadow border border-[#F9D6E5]"
                 >
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-[#F7C6D9] flex items-center justify-center text-lg">💄</div>
+                    <img src="/foto-category/favicon-logo/circle.png" alt="Experience Icon" className="w-8 h-8" />
                     <div>
                       <p className="font-playfair font-bold text-sm text-[#2B2B2B]">5+ Years</p>
                       <p className="text-xs text-gray-500 font-poppins">Experience</p>
